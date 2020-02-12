@@ -32,6 +32,8 @@ export default class App extends Component {
 
         <Header />
 
+        <p>Filter through the images below</p>
+
         <section className="choices">
           <select onChange={handleChange}>
             <option value="" defaultValue>All Monsters</option>

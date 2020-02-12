@@ -11,11 +11,14 @@ export default class ImageList extends Component {
         return <ImageItem image={item} key={index}/>
       })      
       return (
-        <ul>
+        <div>
+        
+          <ul>
+          
           {imageList}
 
          </ul>
-      
+         </div>
       )  
   }
 }
