@@ -1,14 +1,21 @@
 import React, { Component } from "react";
-// import "./stylesheet/stylesheet.css";
-
+import ImageItem from './ImageItem.js';
+import './App.css';
 
 export default class ImageList extends Component {
+
     render() {
-    return (
-      <div>
-  
+
+      const images = this.props.images;
+      const imageList = images.map((item , index) => {
+        return <ImageItem image={item} key={index}/>
+      })      
+      return (
+        <ul>
+          {imageList}
+
+         </ul>
       
-        
-      </div>
-    );
+      )  
   }
+}
