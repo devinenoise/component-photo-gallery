@@ -5,8 +5,8 @@ export default class ImageItem extends Component {
     render() {
         return <li>
             <div className="info-container">
-                <h2 className="creature">{this.props.image.title}</h2>
-                <p className="horns">{this.props.image.horns}</p>
+                <h3 className="creature">Name: {this.props.image.title}</h3>
+                <p className="horns"># of Horns: {this.props.image.horns}</p>
             </div>
 
             <div className="image-container">
