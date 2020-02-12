@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+
+* {
+  margin: 0;
+  text-align: center;
+  
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+header {
+  text-align: center;
+  background-color: #011126;
+  margin-bottom: 50px;
+}
+
+.choices {
+  text-transform: capitalize;
+  margin: 20px;
+  
+}
+
+h1 {
+  font-size: 44px;
+  color: white;
+  font-family: Lacquer;
+} 
+
+h3 {
+  font-size: 42px;
+  color: white;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 22px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.container {
+  border: .5px solid black;
+  width: 750px;
+  height: 500px;
+  display: inline-block;
+  background-color: #688EA6;
+}
